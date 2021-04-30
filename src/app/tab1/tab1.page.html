@@ -1,17 +1,59 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      Cafés
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="medium">
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1200px-A_small_cup_of_coffee.JPG">
+      </ion-thumbnail>
+      <ion-label>
+        <h3>Café</h3>
+        <p>Apenas Um</p>
+        <p>Cafezinho</p>
+      </ion-label>
+      <ion-badge slot="end">R$ 1,50</ion-badge>
+    </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.dicasdemulher.com.br/wp-content/uploads/2020/11/cafe-gelado-00.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3>Café Gelado</h3>
+      <p>Um Café</p>
+      <p>Geladinho</p>
+    </ion-label>
+    <ion-badge slot="end">R$ 2,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://s2.glbimg.com/5MiH6wuMJHyZrj6tDsSKVI0Q5XA=/smart/e.glbimg.com/og/ed/f/original/2020/08/13/receita-cappuccino-caseiro.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3>Cappuccino</h3>
+      <p>Pingado com</p>
+      <p>canela em pó</p>
+    </ion-label>
+    <ion-badge slot="end">R$ 4,50</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.grupoutam.com.br/_temas/t_site/imagens/pingado.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3>Pingado</h3>
+      <p>Leite com</p>
+      <p>Café</p>
+    </ion-label>
+    <ion-badge slot="end">R$ 2,00</ion-badge>
+  </ion-item>
+</ion-list>
 </ion-content>
