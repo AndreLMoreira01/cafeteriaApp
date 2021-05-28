@@ -1,0 +1,22 @@
+ion-item{
+  --min-height: 30px;
+
+ion-label{
+  margin: 0;
+  height: 30px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+ion-note{
+  margin: 0;
+  margin-top: 10px;
+  font-size: 1rem;
+  height: 30px;
+  font-weight: bold;
+}
+
+ion-badge{
+  margin-left: 10px;
+}
+}
